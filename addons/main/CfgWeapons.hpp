@@ -150,7 +150,7 @@ class CfgWeapons {
         magazineWell[] += {"CBA_9x19_USP"};
     };
     class BWA3_P2A1: Pistol_Base_F {
-        magazineWell[] += {"CBA_FLARE_P2A1"};
+        magazineWell[] += {"CBA_FLARE_265"};
     };
 
     class Launcher_Base_F;

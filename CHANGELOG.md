@@ -1,5 +1,16 @@
+# Changelog for Weapons balance 30.10.2021
+
+1.0.0.1
+- Some background changes, nothing much content wise.
+
+- MagazineWells:
+    - CBA:
+        - P2A1 flare:
+            - Renamed to "CBA_FLARE_265"
+
 # Changelog for Weapons balance 26.9.2021
 
+1.0.0.0
 - Added BettIR compatbility
 - Added weapon attachments compatibility
 - Unhid BW 1200Rnd 7.62x51mm M240 belt

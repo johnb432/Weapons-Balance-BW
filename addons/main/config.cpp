@@ -1,23 +1,5 @@
 #include "script_component.hpp"
 
-/*
-20:32:39 Warning Message: Error: creating weapon BWA3_acc_LLMPI_laser with scope=private
-20:32:39 [weapon BWA3_P12]: item[BWA3_acc_LLMPI_laser] does not match to this weapon!
-20:32:42 [weapon BWA3_P12]: item[BWA3_acc_LLMPI_laser] does not match to this weapon!
-
-
-20:35:59 [weapon BWA3_P8]: item[BWA3_acc_LLMPI_laser] does not match to this weapon!
-20:36:08 [weapon BWA3_P8]: item[BWA3_acc_LLMPI_irlaser] does not match to this weapon!
-
-21:50:18 [weapon BWA3_G36A3_tan]: item[BWA3_acc_VarioRay_laser_black] does not match to this weapon!
-*/
-/*
-class BWA3_acc_VarioRay_irlaser;
-class BWA3_acc_VarioRay_irlaser {
-    scope = 2;
-};
-*/
-
 class CfgPatches {
     class ADDON {
         name = COMPONENT_NAME;
@@ -25,22 +7,29 @@ class CfgPatches {
         weapons[] = {};
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {
-            "bwa3_g28",
-            "bwa3_g36",
-            "bwa3_g38",
-            "bwa3_g82",
-            "bwa3_mg3",
-            "bwa3_mg4",
-            "bwa3_mg5",
-            "bwa3_mp7",
-            "bwa3_carlgustav",
-            "bwa3_uniforms",
-            "bwa3_vests",
-            "bwa3_weapons",
-            "bwa3_puma",
+            "bwa3_loadorder",
             "bwa3_comp_ace"
         };
         author = "johnb43";
+        url = "https://github.com/johnb432/Weapons-Balance-BW";
+        VERSION_CONFIG;
+    };
+};
+
+class CfgMods {
+    class PREFIX {
+        name = "Weapons Balance - BWMod";
+        author = "johnb43";
+        tooltipOwned = "Weapons Balance - BWMod";
+        hideName = 0;
+        hidePicture = 0;
+        actionName = "Github";
+        action = "https://github.com/johnb432/Weapons-Balance-BW";
+        description = "A collection of balancing mods made by johnb43.";
+        overview = "A collection of balancing mods made by johnb43.";
+        picture = "\z\wb_bw\addons\main\ui\logo_weapons_balance.paa"; // http://getdrawings.com/get-drawing#gun-drawing-in-pencil-27.jpg, http://getdrawings.com/get-drawing#gun-drawing-in-pencil-17.png
+        logo = "\z\wb_bw\addons\main\ui\logo_weapons_balance.paa";
+        overviewPicture = "\z\wb_bw\addons\main\ui\logo_weapons_balance.paa";
     };
 };
 
