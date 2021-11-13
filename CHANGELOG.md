@@ -1,3 +1,11 @@
+# Changelog for Weapons balance 13.11.2021
+
+1.0.0.2
+- MagazineWells:
+    - Vanilla:
+        - 7.62x51 M240:
+            - Added 1x BW 1200Rnd belt
+
 # Changelog for Weapons balance 30.10.2021
 
 1.0.0.1

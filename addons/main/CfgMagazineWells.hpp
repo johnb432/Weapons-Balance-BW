@@ -110,7 +110,8 @@ class CfgMagazineWells {
             "BWA3_120Rnd_762x51_soft",
             "BWA3_120Rnd_762x51_Tracer_soft",
             "BWA3_120Rnd_762x51",
-            "BWA3_120Rnd_762x51_Tracer"
+            "BWA3_120Rnd_762x51_Tracer",
+            "BWA3_1200Rnd_762x51"
         };
     };
 };
