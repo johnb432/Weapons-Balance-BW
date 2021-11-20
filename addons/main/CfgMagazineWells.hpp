@@ -114,4 +114,11 @@ class CfgMagazineWells {
             "BWA3_1200Rnd_762x51"
         };
     };
+
+    class M249_556x45 {
+        WB_Magazines[] += {
+            "BWA3_200Rnd_556x45",
+            "BWA3_200Rnd_556x45_Tracer"
+        };
+    };
 };

@@ -19,4 +19,8 @@ class CfgMagazines {
     class BWA3_10Rnd_127x99_G82: CA_Magazine {
         mass = 28;
     };
+
+    class BWA3_200Rnd_556x45: CA_Magazine {
+        mass = 51.65;
+    };
 };

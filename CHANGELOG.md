@@ -1,3 +1,15 @@
+# Changelog for Weapons balance 20.11.2021
+
+1.0.0.2
+- MagazineWells:
+    - Vanilla:
+        - 5.56x45 M249
+            - Added 2x BW 200Rnd belts
+
+- Weight balancing:
+    - BW:
+        - Both 200Rnd 5.56x45 M249 belts from 1.81kg to 2.34kg
+
 # Changelog for Weapons balance 13.11.2021
 
 1.0.0.2

@@ -36,7 +36,6 @@ class CfgMods {
 #include "CfgAcc.hpp"
 #include "CfgMagazines.hpp"
 #include "CfgMagazineWells.hpp"
-#include "CfgVehicles.hpp"
 #include "CfgWeapons.hpp"
 
 class BettIR_Config {
