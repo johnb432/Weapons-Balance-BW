@@ -9,6 +9,14 @@ class CfgMagazines {
     class BWA3_40Rnd_46x30_MP7: CA_Magazine {
         mass = 8.8;
     };
+    class BWA3_20Rnd_46x30_MP7: BWA3_40Rnd_46x30_MP7 {
+        mass = 5.5;
+    };
+
+    class BWA3_40Rnd_46x30_MP7_SD;
+    class BWA3_20Rnd_46x30_MP7_SD: BWA3_40Rnd_46x30_MP7_SD {
+        mass = 5.5;
+    };
 
     class BWA3_1200Rnd_762x51: 150Rnd_762x51_Box {
         mass = 341.5;

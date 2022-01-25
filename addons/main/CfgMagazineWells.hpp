@@ -14,6 +14,8 @@ class CfgMagazineWells {
 
     class CBA_46x30_MP7 {
         WB_Magazines[] += {
+            "BWA3_20Rnd_46x30_MP7",
+            "BWA3_20Rnd_46x30_MP7_SD",
             "BWA3_40Rnd_46x30_MP7",
             "BWA3_40Rnd_46x30_MP7_SD"
         };

@@ -1,10 +1,10 @@
-class asdg_OpticRail1913;
-class asdg_OpticRail1913_long;
-
 class CfgWeapons {
     class Rifle;
     class Rifle_Base_F: Rifle {
         class WeaponSlotsInfo {};
+    };
+    class Rifle_Short_Base_F: Rifle_Base_F {
+        class WeaponSlotsInfo: WeaponSlotsInfo {};
     };
     class Rifle_Long_Base_F: Rifle_Base_F {
         class WeaponSlotsInfo: WeaponSlotsInfo {};
@@ -130,11 +130,7 @@ class CfgWeapons {
         magazineWell[] += {"CBA_762x51_LINKS","M240_762x51"};
     };
 
-    class Pistol;
-    class Pistol_Base_F: Pistol {
-        class WeaponSlotsInfo {};
-    };
-    class BWA3_MP7: Pistol_Base_F {
+    class BWA3_MP7: Rifle_Short_Base_F {
         magazineWell[] += {"CBA_46x30_MP7"};
         class WeaponSlotsInfo: WeaponSlotsInfo {
             mass = 43.2;
@@ -143,6 +139,7 @@ class CfgWeapons {
         };
     };
 
+    class Pistol_Base_F;
     class BWA3_P12: Pistol_Base_F {
         magazineWell[] += {"CBA_45ACP_USP"};
     };

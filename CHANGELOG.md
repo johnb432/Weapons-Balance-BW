@@ -1,6 +1,18 @@
-# Changelog for Weapons balance 20.11.2021
+# Changelog for Weapons Balance 25.1.2022
 
-1.0.0.2
+1.0.0.3
+- Updated to work with BW update.
+- Added more weapon attachments compatibility.
+- Cleanup.
+
+- MagazineWells:
+    - CBA:
+        - 4.6x30 MP7:
+            - Added 2x BW 20Rnd mags
+
+# Changelog for Weapons Balance 20.11.2021
+
+1.0.0.3
 - MagazineWells:
     - Vanilla:
         - 5.56x45 M249
@@ -10,7 +22,7 @@
     - BW:
         - Both 200Rnd 5.56x45 M249 belts from 1.81kg to 2.34kg
 
-# Changelog for Weapons balance 13.11.2021
+# Changelog for Weapons Balance 13.11.2021
 
 1.0.0.2
 - MagazineWells:
@@ -18,7 +30,7 @@
         - 7.62x51 M240:
             - Added 1x BW 1200Rnd belt
 
-# Changelog for Weapons balance 30.10.2021
+# Changelog for Weapons Balance 30.10.2021
 
 1.0.0.1
 - Some background changes, nothing much content wise.
@@ -28,12 +40,12 @@
         - P2A1 flare:
             - Renamed to "CBA_FLARE_265"
 
-# Changelog for Weapons balance 26.9.2021
+# Changelog for Weapons Balance 26.9.2021
 
 1.0.0.0
-- Added BettIR compatbility
-- Added weapon attachments compatibility
-- Unhid BW 1200Rnd 7.62x51mm M240 belt
+- Added BettIR compatbility.
+- Added weapon attachments compatibility.
+- Unhid BW 1200Rnd 7.62x51mm M240 belt.
 
 - Weapon changes:
     - BW:

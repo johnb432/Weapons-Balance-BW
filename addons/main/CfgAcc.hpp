@@ -43,3 +43,27 @@ class rhs_western_rifle_gripod_slot: rhs_rifle_gripod_slot {
         bwa3_bipod_harris_tan = 1;
     };
 };
+
+class asdg_OpticRail;
+class asdg_OpticRail1913: asdg_OpticRail {
+    class compatibleItems;
+};
+class asdg_OpticRail1913_long: asdg_OpticRail1913 {
+    class compatibleItems: compatibleItems {
+        BWA3_optic_PMII_DMR_MicroT1_front_NSV = 1;
+        BWA3_optic_PMII_DMR_MicroT1_front_NSV_pip = 1;
+        BWA3_optic_PMII_DMR_MicroT1_rear_NSV = 1;
+        BWA3_optic_PMII_DMR_MicroT1_rear_NSV_pip = 1;
+        BWA3_optic_PMII_DMR_NSV = 1;
+        BWA3_optic_PMII_DMR_NSV_pip = 1;
+        BWA3_optic_Hensoldt_NSV = 1;
+        BWA3_optic_M5Xi_MSR_MicroT2_NSV = 1;
+        BWA3_optic_M5Xi_MSR_MicroT2_NSV_pip = 1;
+        BWA3_optic_M5Xi_MSR_NSV = 1;
+        BWA3_optic_M5Xi_MSR_NSV_pip = 1;
+        BWA3_optic_M5Xi_Tremor3_MicroT2_NSV = 1;
+        BWA3_optic_M5Xi_Tremor3_MicroT2_NSV_pip = 1;
+        BWA3_optic_M5Xi_Tremor3_NSV = 1;
+        BWA3_optic_M5Xi_Tremor3_NSV_pip = 1;
+    };
+};
