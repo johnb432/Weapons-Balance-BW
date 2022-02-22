@@ -1,6 +1,11 @@
+# Changelog for Weapons balance 22.2.2022
+
+1.0.0.5
+- Minor cleanup.
+
 # Changelog for Weapons Balance 25.1.2022
 
-1.0.0.3
+1.0.0.4
 - Updated to work with BW update.
 - Added more weapon attachments compatibility.
 - Cleanup.
