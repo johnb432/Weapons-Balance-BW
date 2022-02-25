@@ -14,4 +14,6 @@
     #define DEBUG_SETTINGS DEBUG_SETTINGS_WB_BW
 #endif
 
+#define MAGAZINE_WELL WB_Magazines
+
 #include "\x\cba\addons\main\script_macros_common.hpp"

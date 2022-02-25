@@ -1,19 +1,19 @@
 class CfgMagazineWells {
     class CBA_338LM_AI {
-       WB_Magazines[] += {
+       MAGAZINE_WELL[] += {
             "BWA3_10Rnd_86x70_G29",
             "BWA3_10Rnd_86x70_G29_Tracer"
         };
     };
 
     class CBA_45ACP_USP {
-        WB_Magazines[] += {
+        MAGAZINE_WELL[] += {
             "BWA3_12Rnd_45ACP_P12"
         };
     };
 
     class CBA_46x30_MP7 {
-        WB_Magazines[] += {
+        MAGAZINE_WELL[] += {
             "BWA3_20Rnd_46x30_MP7",
             "BWA3_20Rnd_46x30_MP7_SD",
             "BWA3_40Rnd_46x30_MP7",
@@ -22,7 +22,7 @@ class CfgMagazineWells {
     };
 
     class CBA_50BMG_M107 {
-        WB_Magazines[] += {
+        MAGAZINE_WELL[] += {
             "BWA3_10Rnd_127x99_G82",
             "BWA3_10Rnd_127x99_G82_Tracer",
             "BWA3_10Rnd_127x99_G82_Tracer_Dim",
@@ -36,7 +36,7 @@ class CfgMagazineWells {
     };
 
     class CBA_556x45_G36 {
-        WB_Magazines[] += {
+        MAGAZINE_WELL[] += {
             "BWA3_30Rnd_556x45_G36",
             "BWA3_30Rnd_556x45_G36_Tracer",
             "BWA3_30Rnd_556x45_G36_Tracer_Dim",
@@ -46,14 +46,14 @@ class CfgMagazineWells {
     };
 
     class CBA_556x45_MINIMI {
-        WB_Magazines[] += {
+        MAGAZINE_WELL[] += {
             "BWA3_200Rnd_556x45",
             "BWA3_200Rnd_556x45_Tracer"
         };
     };
 
     class CBA_762x51_HK417 {
-        WB_Magazines[] += {
+        MAGAZINE_WELL[] += {
             "BWA3_20Rnd_762x51_G28",
             "BWA3_20Rnd_762x51_G28_Tracer",
             "BWA3_20Rnd_762x51_G28_Tracer_Dim",
@@ -64,7 +64,7 @@ class CfgMagazineWells {
     };
 
     class CBA_762x51_LINKS {
-        WB_Magazines[] += {
+        MAGAZINE_WELL[] += {
             "BWA3_120Rnd_762x51_soft",
             "BWA3_120Rnd_762x51_Tracer_soft",
             "BWA3_120Rnd_762x51",
@@ -74,13 +74,13 @@ class CfgMagazineWells {
     };
 
     class CBA_9x19_USP {
-        WB_Magazines[] += {
+        MAGAZINE_WELL[] += {
             "BWA3_15Rnd_9x19_P8"
         };
     };
 
     class CBA_Carl_Gustaf {
-        WB_Magazines[] += {
+        MAGAZINE_WELL[] += {
             "BWA3_CarlGustav_Illum",
             "BWA3_CarlGustav_HE",
             "BWA3_CarlGustav_HEAT",
@@ -90,13 +90,13 @@ class CfgMagazineWells {
     };
 
     class CBA_FIM {
-        WB_Magazines[] += {
+        MAGAZINE_WELL[] += {
             "BWA3_Fliegerfaust_Mag"
         };
     };
 
     class CBA_FLARE_265 {
-        WB_Magazines[] += {
+        MAGAZINE_WELL[] += {
             "BWA3_1Rnd_Flare_Multistar_Green",
             "BWA3_1Rnd_Flare_Multistar_Red",
             "BWA3_1Rnd_Flare_Multistar_White",
@@ -108,7 +108,7 @@ class CfgMagazineWells {
     };
 
     class M240_762x51 {
-        WB_Magazines[] += {
+        MAGAZINE_WELL[] += {
             "BWA3_120Rnd_762x51_soft",
             "BWA3_120Rnd_762x51_Tracer_soft",
             "BWA3_120Rnd_762x51",
@@ -118,7 +118,7 @@ class CfgMagazineWells {
     };
 
     class M249_556x45 {
-        WB_Magazines[] += {
+        MAGAZINE_WELL[] += {
             "BWA3_200Rnd_556x45",
             "BWA3_200Rnd_556x45_Tracer"
         };
