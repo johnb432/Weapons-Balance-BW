@@ -158,13 +158,9 @@ class CfgWeapons {
         magazineWell[] += {"CBA_FIM"};
     };
 
-    class VestItem;
-    class Vest_NoCamo_Base;
-    class V_PlateCarrier1_rgr: Vest_NoCamo_Base {
-        class ItemInfo: VestItem {};
-    };
+    class V_PlateCarrier1_rgr;
     class V_PlateCarrier2_rgr: V_PlateCarrier1_rgr {
-        class ItemInfo: ItemInfo {};
+        class ItemInfo;
     };
     class BWA3_Vest_Fleck: V_PlateCarrier2_rgr {
         class ItemInfo: ItemInfo {
