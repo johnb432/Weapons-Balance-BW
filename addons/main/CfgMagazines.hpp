@@ -22,6 +22,12 @@ class CfgMagazines {
         mass = 341.5;
         scope = 2;
         scopeArsenal = 2;
+
+        #if __has_include("\rhsusf\addons\rhsusf_main\loadorder\config.bin")
+            model = "\rhsusf\addons\rhsusf_weapons\magazines\rhs_m240_mag";
+            modelSpecial = "rhsusf\addons\rhsusf_weapons\mag_proxies\rhs_mag_762x51_m240_pouch_100rnd";
+            modelSpecialIsProxy = 1;
+        #endif
     };
 
     class BWA3_10Rnd_127x99_G82: CA_Magazine {
@@ -30,5 +36,54 @@ class CfgMagazines {
 
     class BWA3_200Rnd_556x45: CA_Magazine {
         mass = 51.65;
+
+        #if __has_include("\rhsusf\addons\rhsusf_main\loadorder\config.bin")
+            model = "\rhsusf\addons\rhsusf_weapons\magazines\rhs_m249_box_mag";
+            modelSpecial = "rhsusf\addons\rhsusf_weapons\mag_proxies\rhs_mag_556x45_m249_box_200rnd";
+            modelSpecialIsProxy = 1;
+            reloadAction = "rhs_GestureReloadM249";
+        #endif
     };
+
+    #if __has_include("\hlc_wp_g36\config.bin")
+        class BWA3_30Rnd_556x45_G36: CA_Magazine {
+            model = "\hlc_wp_g36\mesh\magazine\magazine_556.p3d";
+            modelSpecial = "\hlc_wp_g36\mesh\magazine\proxy\30rnd_556NATO_G36.p3d";
+            modelSpecialIsProxy = 1;
+        };
+    #else
+        #if __has_include("\rhssaf\addons\rhssaf_main\loadorder\config.bin")
+            class BWA3_30Rnd_556x45_G36: CA_Magazine {
+                model = "\rhssaf\addons\rhssaf_m_weapon_g36\magazine\magazine_556.p3d";
+                modelSpecial = "rhssaf\addons\rhssaf_m_weapon_g36\mag_proxies\rhs_mag_556x45_G36_30rnd";
+                modelSpecialIsProxy = 1;
+            };
+        #endif
+    #endif
+
+    #if __has_include("\rhsusf\addons\rhsusf_main\loadorder\config.bin")
+        class BWA3_120Rnd_762x51: CA_Magazine {
+            model = "\rhsusf\addons\rhsusf_weapons\magazines\rhs_m240_mag";
+            modelSpecial = "rhsusf\addons\rhsusf_weapons\mag_proxies\rhs_mag_762x51_m240_pouch_100rnd";
+            modelSpecialIsProxy = 1;
+        };
+        class BWA3_120Rnd_762x51_soft: CA_Magazine {
+            model = "\rhsusf\addons\rhsusf_weapons\magazines\rhs_m240_mag";
+            modelSpecial = "rhsusf\addons\rhsusf_weapons\mag_proxies\rhs_mag_762x51_m240_pouch_100rnd";
+            modelSpecialIsProxy = 1;
+        };
+    #else
+        #if __has_include("\hlc_wp_m60E4\config.bin")
+            class BWA3_120Rnd_762x51: CA_Magazine {
+                model = "hlc_core\mesh\magazines\100rnd_762NATO_M60.p3d";
+                modelSpecial = "\hlc_core\mesh\magazines\proxies\50Rnd_762NATO_M60";
+                modelSpecialIsProxy = 1;
+            };
+            class BWA3_120Rnd_762x51_soft: CA_Magazine {
+                model = "hlc_core\mesh\magazines\100rnd_762NATO_M60.p3d";
+                modelSpecial = "\hlc_core\mesh\magazines\proxies\50Rnd_762NATO_M60";
+                modelSpecialIsProxy = 1;
+            };
+        #endif
+    #endif
 };

@@ -5,7 +5,6 @@ This rebalancing balances items from BWMod:
 [*] Magazine weight balancing
 [*] Magazine compatibility
 [*] Weapon attachment compatibility
-[*] TFAR intercom channels for Puma
 [*] "New" magazine
 [*] and further changes
 [/list]

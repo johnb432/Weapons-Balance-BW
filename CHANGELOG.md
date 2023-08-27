@@ -1,3 +1,9 @@
+# Changelog for Weapons balance 27.8.2023
+
+1.1.0.0
+- More intermod compatbility.
+- Minor fixes.
+
 # Changelog for Weapons balance 4.3.2022
 
 1.0.0.7
