@@ -27,13 +27,13 @@ class CfgWeapons {
 
     class BWA3_G29: Rifle_Long_Base_F {
         magazineWell[] += {"CBA_338LM_AI"};
-        class WeaponSlotsInfo: WeaponSlotsInfo {
+        class WeaponSlotsInfo {
             class CowsSlot: asdg_OpticRail1913_long {};
         };
     };
     class BWA3_G82: Rifle_Long_Base_F {
         magazineWell[] += {"CBA_50BMG_M107"};
-        class WeaponSlotsInfo: WeaponSlotsInfo {
+        class WeaponSlotsInfo {
             mass = 327;
             class CowsSlot: asdg_OpticRail1913_long {};
         };
@@ -116,7 +116,7 @@ class CfgWeapons {
 
     class BWA3_MG3: Rifle_Long_Base_F {
         magazineWell[] += {"CBA_762x51_LINKS","CBA_762x51_MG3","M240_762x51"};
-        class WeaponSlotsInfo: WeaponSlotsInfo {
+        class WeaponSlotsInfo {
             mass = 247.5;
             class CowsSlot: asdg_OpticRail1913 {};
         };

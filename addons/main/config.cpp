@@ -1,3 +1,5 @@
+#pragma hemtt flag pe23_ignore_has_include
+
 #include "script_component.hpp"
 
 class CfgPatches {
@@ -8,7 +10,9 @@ class CfgPatches {
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {
             "bwa3_loadorder",
-            "bwa3_comp_ace"
+            #if __has_include("\z\ace\addons\main\script_component.hpp")
+                "bwa3_comp_ace"
+            #endif
         };
         author = "johnb43";
         authors[] = {"johnb43"};
@@ -24,21 +28,12 @@ class CfgPatches {
 
 class BettIR_Config {
     class CompatibleAttachments {
-        class bwa3_acc_varioray_irlaser_black {
-            offset[] = {0.15, 0.22, 0.25};
-        };
-        class bwa3_acc_varioray_irlaser {
-            offset[] = {0.15, 0.22, 0.25};
-        };
+        class __base_rightSiderailPointer;
+        class BWA3_acc_VarioRay_irlaser_black: __base_rightSiderailPointer {};
+        class BWA3_acc_VarioRay_irlaser: __base_rightSiderailPointer {};
 
-        class bwa3_acc_llm01_irlaser {
-            offset[] = {0.15, 0.22, 0.25};
-        };
-        class bwa3_acc_llm01_irlaser_green {
-            offset[] = {0.15, 0.22, 0.25};
-        };
-        class bwa3_acc_llm01_irlaser_tan {
-            offset[] = {0.15, 0.22, 0.25};
-        };
+        class BWA3_acc_LLM01_irlaser: __base_rightSiderailPointer {};
+        class BWA3_acc_LLM01_irlaser_green: __base_rightSiderailPointer {};
+        class BWA3_acc_LLM01_irlaser_tan: __base_rightSiderailPointer {};
     };
 };

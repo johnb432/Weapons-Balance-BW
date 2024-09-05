@@ -1,14 +1,12 @@
-class asdg_SlotInfo;
-class asdg_MuzzleSlot: asdg_SlotInfo {
-    class compatibleItems {};
-};
+class asdg_MuzzleSlot;
 class asdg_MuzzleSlot_46: asdg_MuzzleSlot {
-    class compatibleItems: compatibleItems {
+    class compatibleItems {
         bwa3_muzzle_snds_rotex_ii = 1;
     };
 };
 
-class UK3CB_MuzzleSlot_556_HK33: asdg_MuzzleSlot {
+class asdg_MuzzleSlot_556;
+class UK3CB_MuzzleSlot_556_HK33: asdg_MuzzleSlot_556 {
     class compatibleItems {
         bwa3_muzzle_snds_qdss = 1;
         bwa3_muzzle_snds_qdss_green = 1;
@@ -19,13 +17,14 @@ class UK3CB_MuzzleSlot_556_HK33: asdg_MuzzleSlot {
     };
 };
 
-class UK3CB_MuzzleSlot_762_G3: asdg_MuzzleSlot {
+class asdg_MuzzleSlot_762;
+class UK3CB_MuzzleSlot_762_G3: asdg_MuzzleSlot_762 {
     class compatibleItems {
         bwa3_muzzle_snds_rotex_iia = 1;
     };
 };
 
-class UK3CB_MuzzleSlot_762_M14: asdg_MuzzleSlot {
+class UK3CB_MuzzleSlot_762_M14: asdg_MuzzleSlot_762 {
     class compatibleItems {
         bwa3_muzzle_snds_rotex_iia = 1;
     };

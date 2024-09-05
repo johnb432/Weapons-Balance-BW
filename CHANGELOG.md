@@ -1,5 +1,11 @@
 # Changelog for Weapons balance 27.8.2023
 
+1.1.1.0
+- Removed soft ACE dependency.
+- Cleanup.
+
+# Changelog for Weapons balance 27.8.2023
+
 1.1.0.0
 - More intermod compatbility.
 - Minor fixes.
