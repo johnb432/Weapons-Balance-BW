@@ -1,4 +1,4 @@
-# Changelog for Weapons balance 27.8.2023
+# Changelog for Weapons balance 5.9.2024
 
 1.1.1.0
 - Removed soft ACE dependency.
